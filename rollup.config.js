@@ -38,7 +38,7 @@ export default {
     peerDepsExternal(),
     json(),
     postcss({
-      extract: true,
+      // extract: true,
       modules: true,
     }),
     url(),
