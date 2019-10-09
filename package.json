@@ -12,6 +12,7 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "rollup -c",
+    "storybook": "start-storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,13 +22,22 @@
     "@babel/core": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@storybook/react": "^5.2.3",
     "@svgr/rollup": "^4.3.3",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.12.0",
     "rollup": "^1.23.1",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-url": "^3.0.0"
+    "rollup-plugin-url": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }
